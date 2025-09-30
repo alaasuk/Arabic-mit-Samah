@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { generateMultipleChoice } from '../services/geminiService';
-import { MCQExercise } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import ExerciseContainer from './ExerciseContainer';
+import { generateMultipleChoice } from '../services/geminiService.ts';
+import { MCQExercise } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import ExerciseContainer from './ExerciseContainer.tsx';
 
 interface MultipleChoiceProps {
   onBack: () => void;

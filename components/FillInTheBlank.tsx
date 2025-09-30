@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { generateFillInTheBlank } from '../services/geminiService';
-import { FillBlankExercise } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import ExerciseContainer from './ExerciseContainer';
+import { generateFillInTheBlank } from '../services/geminiService.ts';
+import { FillBlankExercise } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import ExerciseContainer from './ExerciseContainer.tsx';
 
 interface FillInTheBlankProps {
   onBack: () => void;

@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { View } from '../types';
-import SectionCard from './SectionCard';
+import { View } from '../types.ts';
+import SectionCard from './SectionCard.tsx';
 
 interface DashboardProps {
   onSelectView: (view: View) => void;

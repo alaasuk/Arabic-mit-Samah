@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { generateEducationalCard } from '../services/geminiService';
-import { EducationalCard } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import ExerciseContainer from './ExerciseContainer';
+import { generateEducationalCard } from '../services/geminiService.ts';
+import { EducationalCard } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import ExerciseContainer from './ExerciseContainer.tsx';
 
 interface EducationalCardsProps {
   onBack: () => void;

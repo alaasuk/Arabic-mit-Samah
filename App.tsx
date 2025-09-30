@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import { View } from './types';
-import Dashboard from './components/Dashboard';
-import FillInTheBlank from './components/FillInTheBlank';
-import MultipleChoice from './components/MultipleChoice';
-import ReadingComprehension from './components/ReadingComprehension';
-import EducationalCards from './components/EducationalCards';
+import { View } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import FillInTheBlank from './components/FillInTheBlank.tsx';
+import MultipleChoice from './components/MultipleChoice.tsx';
+import ReadingComprehension from './components/ReadingComprehension.tsx';
+import EducationalCards from './components/EducationalCards.tsx';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>(View.DASHBOARD);

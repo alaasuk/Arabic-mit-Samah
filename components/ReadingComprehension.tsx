@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { generateReadingComprehension } from '../services/geminiService';
-import { ReadingExercise } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import ExerciseContainer from './ExerciseContainer';
+import { generateReadingComprehension } from '../services/geminiService.ts';
+import { ReadingExercise } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import ExerciseContainer from './ExerciseContainer.tsx';
 
 interface ReadingComprehensionProps {
   onBack: () => void;
